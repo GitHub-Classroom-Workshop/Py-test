@@ -1,12 +1,12 @@
 def word_count(arr):
     # Function to check the number of words. Returns the word count in string.
-    words = len(arr.split())
+    words = len(split())
     print(words)
     return words
 
 def char_count(arr):
     # Function to check the number of characters. Returns the character count in string.
-    chars = len(arr)
+    chars = (arr)
     print(chars)
     return chars
 
