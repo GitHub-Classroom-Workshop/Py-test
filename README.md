@@ -16,10 +16,13 @@ In this repository you will find:
 
 Your repository will *fail* the unit tests.  You can see what happened when the tests were triggered by navigating to the `Actions` menu.  There you will see a list of instances when the repository workflow was triggered - find the most recent one and click through the tests to try to understand why the workflow run failed.
 
-**Note :** If you are to use Codespace, to test your code, run the following code in the terminal  
-- `pip install pytest`   to install pytest module
-- `python3 -m pytest test.py` to run test.py script
-
 
 #### Exercise 1
 1. Edit the following functions(`woord_count`, `char_count`, `first_char`, `last_char`) in `index.py` so that the workflow run passes.
+
+**Note :** If you are to use Codespace, to test your code, run the following code in the terminal  
+- Neglect all prompt
+- `pip install pytest`   to install pytest module
+- `python3 -m pytest test.py` to run test.py script
+- Navigate to the side bar to locate `Source Control`, name/commit your changes and Sync Chnages.
+- Go back to your github tab to confirm the changes by clicking `Actions`. Your commit name appeares which turns green if all test is passed.
