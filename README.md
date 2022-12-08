@@ -16,8 +16,8 @@ In this repository you will find:
 
 Your repository will *fail* the unit tests.  You can see what happened when the tests were triggered by navigating to the `Actions` menu.  There you will see a list of instances when the repository workflow was triggered - find the most recent one and click through the tests to try to understand why the workflow run failed.
 
-*Note :* If you are to use Codespace, to test your code, run the following code in the terminal
-`pip install pytest` 
+*Note :* If you are to use Codespace, to test your code, run the following code in the terminal  
+`pip install pytest`   
 `python3 -m pytest test.py`
 
 
